@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("../img/bg-login.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+}
+.container{
+	width: 400px;
+    min-height: auto;
+    padding:20px;
+    margin:auto;
+    border-radius: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 5px black;
+}
+.form-group {
+	color: white;
+
+}
+/*.garis{
+	border-bottom: 2px solid white;
+}*/
+h2{
+	color: white;
+	text-align:center;
+	letter-spacing: 5px;
+}
+/*.form-control{
+	background: none;
+	border:none;
+	outline: none;
+}*/
+.btn{
+	width: 100%;
+}
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+.ikon i{
+	color: white ;
+}
+a{
+	color: white !important;
+}
+a::hover{
+	text-decoration: underline;
+}
+
+

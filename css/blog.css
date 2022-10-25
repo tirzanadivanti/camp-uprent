@@ -1,0 +1,134 @@
+body{
+    font-family: poppins;
+}
+.jumbotron{
+    background-image: url("../img/jumar.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    /* position: absolute; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* margin-top: 10px; */
+}
+
+
+/* NAVBAR */
+/* ================================================= */
+.navbar-brand, .nav-link{
+    color: black !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-weight: bold;
+    font-family: poppins;
+    padding-right: 30px;
+}
+.navbar-brand{
+    font-family: Oswald;
+    font-size: 28px;
+}
+.navbar-fixed{
+    transition: .3s ease-in-out;
+    background-color: white !important;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    
+}
+
+.nav-link{
+    margin-right: 20px;
+}
+
+/*PROFIL*/
+/*========================*/
+.avatar{
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* ARTIKEL */
+/* ============================================ */
+.kotak-ar{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    /* border: 2px solid rgba(67,67,67,.5); */
+}
+.kotak-ar img{
+    width: 100%;
+    vertical-align: center;
+}
+.judul-ar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.ket-ar{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+.sinop-ar{
+    margin-top: -5px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+/* FOOTER */
+/* ================================== */
+footer{
+    margin-top: 60px;
+}
+.font1{
+	font-family:calibri light;
+	font-size:40px;
+	color:gray;
+	padding: 0 10px 0 10px;
+	min-height: 1px;
+}
+
+
+
+/* ARTIKEL LENGKAP */
+/* ========================================*/
+.posar-lengkap{
+    margin-top: 60px;
+}
+.judul-arleng{
+    font-size: 35px;
+}
+.ket-arleng{
+    font-size: 15px;
+}
+.isi-arleng{
+    font-size: 20px;
+}
+.kotak-gambar{
+    width: 75%;
+    height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    /* border: 2px solid rgba(67,67,67,.5); */
+}
+.kotak-gambar img{
+    width: 100%;
+    vertical-align: center;
+}
